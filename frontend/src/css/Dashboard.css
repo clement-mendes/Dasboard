@@ -1,0 +1,9 @@
+.dashboard {
+    width: calc(100vw - 325px);
+    margin-left: 325px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    transition: 1s width ease-out, 1s margin-left ease-out;
+}
+

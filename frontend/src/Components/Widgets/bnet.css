@@ -1,0 +1,24 @@
+.bnet-widget {
+    display: flex;
+    overflow-y: auto;
+}
+
+.item-icon-bnet {
+    max-height: 30px;
+    margin-right: 10px;
+}
+
+.text-gold {
+    color: #FFD700 !important;
+    font-weight: bold !important;
+}
+
+.text-silver {
+    color: #C0C0C0 !important;
+    font-weight: bold !important;
+}
+
+.text-bronze {
+    color: #CD7F32 !important;
+    font-weight: bold !important;
+}

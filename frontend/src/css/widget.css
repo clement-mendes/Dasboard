@@ -1,0 +1,10 @@
+.widget {
+    max-height: 300px !important;
+    max-width: 75% !important;
+
+}
+
+.widget-settings {
+    float: left;
+    width: calc(100% - 20px);
+}

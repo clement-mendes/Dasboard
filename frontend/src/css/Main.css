@@ -1,0 +1,29 @@
+:root {
+    --main-bg-color: #DDD;
+    --secondary-bg-color: #CCC;
+    --intense-bg-color: #EEE;
+    --bright-bg-color: #333;
+    --text-main-color: #222;
+    --text-dark-color: #DDD;
+    --bright-text-color: #000;
+    --line-color: #333;
+    --link-color: #007bff;
+    --text-success: #28a745;
+    --text-danger: #f32013;
+}
+
+* {
+    box-sizing: border-box;
+    color: var(--text-main-color);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+

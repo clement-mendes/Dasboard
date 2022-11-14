@@ -1,0 +1,21 @@
+.control-panel {
+    top:0;
+    transition: width 1s ease-out, min-width 1s ease-out;
+    overflow: hidden;
+    background-color: var(--main-bg-color);
+    box-shadow: 2px 2px 2px var(--secondary-bg-color);
+}
+
+@media screen and (max-width: 600px) {
+    .control-panel {
+
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .control-panel {
+        height: 100vh;
+        position: fixed;
+        width: 20vw;
+    }
+}

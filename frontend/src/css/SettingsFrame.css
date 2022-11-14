@@ -1,0 +1,10 @@
+#settingsFrame {
+    position: absolute;
+    top: 70px;
+    max-width: 200px;
+    z-index: 9999;
+    right: 20px;
+    box-shadow: 5px 10px 20px var(--secondary-bg-color) inset;
+    padding: 1em;
+    border-radius: 0.4em;
+}

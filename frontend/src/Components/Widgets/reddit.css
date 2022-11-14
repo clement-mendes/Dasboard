@@ -1,0 +1,23 @@
+.title, .posted {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 320px;
+}
+
+.title {
+    font-size: 12px;
+    
+}
+
+.posted {
+    font-size: 8px;
+    color: grey;
+    max-width: 95%;
+}
+
+.comment {
+    display: flex;
+    font-size: 10px;
+    color: grey;
+}
